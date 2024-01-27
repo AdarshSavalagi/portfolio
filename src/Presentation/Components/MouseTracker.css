@@ -15,7 +15,7 @@
     border: 2px solid #d7351c;
     border-radius: 50%;
     transform: translate(-50%, -50%);
-    transition: transform 1000s ease-in-out 0s;
+    transition: transform 100000s ease ;
 }
 
 

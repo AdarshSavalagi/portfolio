@@ -8,9 +8,7 @@ export default function Navbar() {
     };
     
     return (
-
-
-        <nav className="border-gray-200 bg-white fixed w-full z-50">
+        <nav className="border-gray-200 bg-white bg-opacity-75 fixed w-full z-50">
             <div className="max-w-screen-xl flex flex-wrap z-20   justify-end mx-auto p-4 ">
 
                 <button data-collapse-toggle="navbar-solid-bg" type="button" onClick={handleToggle} className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="navbar-solid-bg" aria-expanded="false">
