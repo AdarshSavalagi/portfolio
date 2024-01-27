@@ -32,7 +32,6 @@ const MouseTracker = () => {
   return (
     <div className="mouse-tracker">
       <div className="cursor" style={{ left: position.x-10, top: position.y -10}}></div>
-      {/* Your other content goes here */}
     </div>
   );
 };

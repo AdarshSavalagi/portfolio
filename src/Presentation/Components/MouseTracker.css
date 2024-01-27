@@ -1,4 +1,3 @@
-/* MouseTracker.css */
 .mouse-tracker {
     position: fixed;
     top: 0;
@@ -6,25 +5,24 @@
     width: 100%;
     height: 100%;
     pointer-events: none;
-    z-index: 9999; /* Ensure the cursor is on top of other elements */
-  }
-  
-  .cursor {
+    z-index: 9999;
+}
+
+.cursor {
     position: absolute;
     width: 25px;
     height: 25px;
-    border: 1px solid #d7351c; /* Outer circle border color */
+    border: 1px solid #d7351c;
     border-radius: 50%;
     transform: translate(-50%, -50%);
-    transition: transform 7s cubic-bezier(0.25, 0.8, 0.25, 1); /* Adjust duration and cubic-bezier values */
-  }
-  
+    transition: transform 7s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
 
-  .cursor:hover {
-    transform: scale(1.5); /* Increase scale on hover for the outer circle */
-  }
-  
-  .cursor:hover {
-    transform: scale(0.7); /* Decrease scale on hover for the inner circle */
-  }
-  
+
+.cursor:hover {
+    transform: scale(1.5);
+}
+
+.cursor:hover {
+    transform: scale(0.7);
+}
