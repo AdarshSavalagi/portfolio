@@ -3,7 +3,7 @@ import Navbar from "./Components/navbar";
 import Container1 from "./Components/Container1";
 import Footer from "./Components/Footer";
 import MouseTracker from "./Components/MouseTracker";
-import Container2 from "./Components/Container2";
+import Container2 from "./Components/techstack";
 import Spacer from "./Components/Spacer";
 
 function App() {
@@ -15,7 +15,6 @@ function App() {
      <Container1/>
      <Container2/>
      <Footer/>
-
     </>
   )
 }
