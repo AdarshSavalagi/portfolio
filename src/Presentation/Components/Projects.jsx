@@ -30,7 +30,7 @@ export default function Projects() {
     return (
         <section id='work'>
 
-                <div className='w-10/12 mx-auto text-center z-50 '>
+                <div className='w-10/12 mx-auto text-center z-40 '>
 
                     <h3 className='text-3xl font-bold text-center md:pt-5 mb-5'>Projects</h3>
                     <div className=' mx-auto mb-5 grid grid-cols-1 md:grid-cols-3 gap-4'>
@@ -47,7 +47,7 @@ export default function Projects() {
 
 function ProjectCard(props) {
     return (
-        <div className='shadow text-start rounded-lg bg-white  z-50'>
+        <div className='shadow text-start rounded-lg bg-white  z-40'>
             <img src={props.image} alt={props.name} className='rounded-lg ' />
             {props.techstacks.map((item, index) => (
                 <kbd key={index} className=" px-2 ml-2 py-1.5 text-xs font-semibold text-gray-800  border border-gray-200 rounded-lg ">{item}</kbd>
