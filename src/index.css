@@ -1,0 +1,29 @@
+body {
+  transition: background-color 100s ease; 
+  font-family: 'Helvetica', sans-serif;
+  scroll-behavior: smooth; 
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.letter-animation {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .letter-animation:hover {
+    animation: roll 1.5s linear forwards;
+  }
+  
+  @keyframes roll {
+    0% {
+      transform: rotateX(0deg);
+    }
+    100% {
+      transform: rotateX(360deg);
+    }
+  }
+  
