@@ -14,6 +14,9 @@ import postgreIcon from '../assets/techstacks/postgresql-icon.svg';
 import restIcon from '../assets/techstacks/Django REST.svg';
 import nginxIcon from '../assets/techstacks/nginx-svgrepo-com.svg';
 import firebaseIcon from '../assets/techstacks/firebase.svg';
+import githubActions from '../assets/techstacks/GitHub Actions.svg';
+import azure from '../assets/techstacks/Azure.svg';
+import aws from '../assets/techstacks/AWS.svg';
 class Techstack {
     constructor(name, image) {
         this.name = name,
@@ -34,7 +37,10 @@ const AngularTS = new Techstack('Angular JS', angularIcon);
 const PostgreTS =  new Techstack('PostgreSQL', postgreIcon);
 const NginxTs = new Techstack("Nginx",nginxIcon);
 const FirebaseTs= new Techstack("Firebase",firebaseIcon);
+const GithubActions= new Techstack("Github Actions",githubActions);
+const Azure= new Techstack("Azure",azure);
+const Aws= new Techstack("AWS",aws);
 
 export const techstacks = [
-    FlutterTS, DjangoTS, ReactTS, RestTS, DockerTS, GCPTS, KubernetesTS, MongoTS, FastapiTS, TailwindTS, AngularTS, PostgreTS,NginxTs,FirebaseTs,
+    FlutterTS, DjangoTS, ReactTS, RestTS, DockerTS, GCPTS, KubernetesTS, MongoTS, FastapiTS, TailwindTS, AngularTS, PostgreTS,NginxTs,FirebaseTs,GithubActions,Azure,Aws,
 ];
