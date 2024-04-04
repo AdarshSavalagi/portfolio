@@ -6,7 +6,7 @@ export default function Projects() {
     const projects = [
         {
             title: "MechExcel",
-            link: 'https://adarshsavalagi.github.io/adarshsavalagi.github.io-mechexcel/',
+            link: 'mechexcel.in',
             screenshot: MechExcel,
             techstacks: [
                 'React JS',
@@ -20,7 +20,7 @@ export default function Projects() {
             ]
         },
         {
-            title: "Aldebrans Iris", link: 'https://adarshsavalagi.github.io/adarshsavalagi.github.io-reactapp/',
+            title: "Aldebrans Iris", link: 'https://aldebransiris.online/',
             screenshot: IrisProject,
             techstacks: [
                 'React JS',
